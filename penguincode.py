@@ -1,4 +1,4 @@
-import joblib
+pip install joblib
 import numpy as np
 import pandas as pd
 import streamlit as st
@@ -30,5 +30,6 @@ if btn :
     if pred == 2 :
         answer = "Chinstrap" 
     st.success(answer)
+
 
 
