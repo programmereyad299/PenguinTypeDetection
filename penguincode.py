@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st
-import joblib
+pip install joblib
 
 model = joblib.load("penguin.pkl")
 le = joblib.load('label.pkl')
@@ -30,6 +30,7 @@ if btn :
     if pred == 2 :
         answer = "Chinstrap" 
     st.success(answer)
+
 
 
 
